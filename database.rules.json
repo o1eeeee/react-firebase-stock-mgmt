@@ -1,16 +1,6 @@
 {
   "rules": {
-    "users": {
-        ".read": "auth != null",
-        ".write": "auth != null"
-    },
-    "articles": {
-        ".read": "auth != null",
-        ".write": "auth != null"
-    },
-    "logMessages": {
-        ".read": "auth != null",
-        ".write": "auth != null"
-    }
+    ".read": "auth != null",
+    ".write": "auth != null"
   }
 }

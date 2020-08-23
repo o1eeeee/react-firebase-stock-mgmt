@@ -117,7 +117,7 @@ const NavigationAuth = ({ authUser }) => {
     setState({ ...state, [side]: open });
   };
 
-  const welcomeUserText = "Hallo, " + authUser.username + "!";
+  const welcomeUserText = "Hello, " + authUser.username + "!";
 
   return (
     <AppBar position="static">
